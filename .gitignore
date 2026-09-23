@@ -1,0 +1,20 @@
+/.idea
+
+# Binários de programas e plugins (Compilados)
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Binários de teste (Gerados com `go test -c`)
+*.test
+
+# Perfis de cobertura de código e artefatos de testes
+*.out
+*.prof
+coverage.txt
+
+# Diretório de dependências (Opcional)
+# Descomente a linha abaixo se você preferir salvar as dependências localmente via 'go mod vendor'
+# vendor/
